@@ -1,4 +1,6 @@
-/* Chat app CSS illustration */
+/* Rami Al-Saadi's solution to Frontend Coding Challenge:
+ Chat app CSS illustration - Stylesheet */
+/* Declaring Vars  */
 html:root {
   /* Break Points */
   --mobile-break: 375px;
@@ -21,11 +23,9 @@ html:root {
   --font-size: 16px;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-font-family: 'Rubik', sans-serif;
-Weights: 400, 500, 700  
- */
+Weights: 400, 500, 700 */
 
-/* CSS Reset */
+/* CSS Reset and initializations*/
 html,
 body,
 div,
@@ -104,13 +104,6 @@ video {
   background: transparent;
 }
 
-body {
-  line-height: 1;
-  width: 100%;
-  min-height: 100vh;
-  font-size: var(--font-size);
-}
-
 article,
 aside,
 details,
@@ -124,7 +117,33 @@ nav,
 section {
   display: block;
 }
+/* Body */
+html {
+  font-size: var(--font-size);
+}
+body {
+  line-height: 1;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Rubik", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: var(--white);
+  overflow: hidden;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--ddd-violet);
+  padding: 0.7rem;
+}
+p {
+  padding: 1rem;
+  color: var(--gray-violet);
+  line-height: 1.7rem;
+}
 
+h1 {
+  color: var(--white);
+}
 /* Attribution Styling */
 .attribution {
   font-size: 11px;
