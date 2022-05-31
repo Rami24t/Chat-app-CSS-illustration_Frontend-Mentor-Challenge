@@ -1,0 +1,135 @@
+/* Chat app CSS illustration */
+html:root {
+  /* Break Points */
+  --mobile-break: 375px;
+  --desktop-break: 1440px;
+  /* Text */
+  --pale-violet: hsl(276, 100%, 81%);
+  --mod-violet: hsl(276, 55%, 52%);
+  --dd-violet: hsl(271, 15%, 43%);
+  --gray-blue: hsl(206, 6%, 79%);
+  --ddd-violet: hsl(271, 36%, 24%);
+  --gray-violet: hsl(270, 7%, 64%);
+  /* Linear Gradient Colors*/
+  --magenta: hsl(293, 100%, 63%);
+  --violet: hsl(264, 100%, 61%);
+  /* Secondary */
+  --white: hsl(0, 0%, 100%);
+  --app-background: hsl(270, 20%, 96%);
+  --submit-btn-bg: hsl(271, 36%, 24%);
+  --r-btn-outline: hsl(289, 100%, 72%);
+  --font-size: 16px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+font-family: 'Rubik', sans-serif;
+Weights: 400, 500, 700  
+ */
+
+/* CSS Reset */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  width: 100%;
+  min-height: 100vh;
+  font-size: var(--font-size);
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Attribution Styling */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
