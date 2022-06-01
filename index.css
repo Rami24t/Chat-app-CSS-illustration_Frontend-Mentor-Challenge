@@ -141,9 +141,67 @@ p {
   line-height: 1.7rem;
 }
 
-h1 {
+.name,
+.status {
   color: var(--white);
+  background-color: blueviolet;
 }
+.name {
+  font-weight: 500;
+  padding: 0.1rem;
+}
+.status {
+  font-size: 0.6rem;
+  font-weight: 100;
+  padding: 0.1rem;
+}
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px var(--white);
+  width: 2rem;
+  height: 2rem;
+}
+.avatar img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.grey-chat {
+  background-color: rgba(201, 107, 255, 0.205);
+  color: var(--mod-violet);
+  line-height: 1;
+  font-size: 0.63rem;
+  padding: 0.4rem 0.6rem;
+  width: fit-content;
+  margin-right: auto;
+  border-radius: 7px 7px 7px 2px;
+  margin: 0.6rem;
+}
+.photos {
+  margin-left: auto;
+  width: fit-content;
+  padding: 0.6rem;
+}
+.photos img {
+  display: inline-block;
+  width: 3rem;
+  border-radius: 12px;
+  margin: 0.24rem;
+}
+.whiteChat {
+  background-color: var(--white);
+  color: var(--dd-violet);
+  line-height: 1;
+  font-size: 0.63rem;
+  padding: 0.4rem 0.6rem;
+  width: fit-content;
+  margin: 0.6rem;
+  margin-left: auto;
+  border-radius: 7px 7px 2px 7px;
+  box-shadow: 0px 3px 7px var(--gray-blue);
+}
+
 /* Attribution Styling */
 .attribution {
   font-size: 11px;
