@@ -135,18 +135,57 @@ h1 {
   color: var(--ddd-violet);
   padding: 0.7rem;
 }
-p {
+.paragraph p {
   padding: 1rem;
   color: var(--gray-violet);
   line-height: 1.7rem;
 }
 
-.name,
-.status {
+.screen {
+  width: 17.8rem;
+  background-color: var(--app-background);
+  border-radius: 34px;
+  border: 10px solid var(--white);
+  overflow: hidden;
+  margin-top: 4rem;
+  position: relative;
+}
+.screen-top {
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  background: var(--white);
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+}
+.phoneHeader {
+  overflow: hidden;
+  background: linear-gradient(to right, var(--violet), var(--magenta));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+  padding-top: 30px;
+  border-radius: 17px 17px 0px 0px;
+}
+.less-than {
   color: var(--white);
-  background-color: blueviolet;
+  font-weight: 700;
+  transform: scaleY(1.4) scaleX(0.66) scale(0.9);
+}
+.circle {
+  height: 2px;
+  width: 2px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 1px;
 }
 .name {
+  color: var(--white);
   font-weight: 500;
   padding: 0.1rem;
 }
@@ -154,6 +193,7 @@ p {
   font-size: 0.6rem;
   font-weight: 100;
   padding: 0.1rem;
+  color: var(--pale-violet);
 }
 .avatar {
   border-radius: 50%;
@@ -161,6 +201,7 @@ p {
   border: 2px var(--white);
   width: 2rem;
   height: 2rem;
+  border: 1px solid var(--white);
 }
 .avatar img {
   display: block;
@@ -170,18 +211,18 @@ p {
 .grey-chat {
   background-color: rgba(201, 107, 255, 0.205);
   color: var(--mod-violet);
-  line-height: 1;
+  line-height: 1.3;
   font-size: 0.63rem;
   padding: 0.4rem 0.6rem;
-  width: fit-content;
-  margin-right: auto;
-  border-radius: 7px 7px 7px 2px;
+  border-radius: 10px 10px 10px 4px;
   margin: 0.6rem;
+  margin-right: auto;
+  width: 8.7rem;
 }
 .photos {
   margin-left: auto;
   width: fit-content;
-  padding: 0.6rem;
+  padding: 0.3rem 0.5rem 0rem 0.5rem;
 }
 .photos img {
   display: inline-block;
@@ -192,16 +233,99 @@ p {
 .whiteChat {
   background-color: var(--white);
   color: var(--dd-violet);
-  line-height: 1;
+  line-height: 1.3;
   font-size: 0.63rem;
   padding: 0.4rem 0.6rem;
   width: fit-content;
   margin: 0.6rem;
+  margin-top: 0.2rem;
   margin-left: auto;
-  border-radius: 7px 7px 2px 7px;
+  border-radius: 10px 10px 4px 10px;
   box-shadow: 0px 3px 7px var(--gray-blue);
+  max-width: 8.7rem;
 }
-
+input[type="text"] {
+  background-color: var(--white);
+  display: inline-block;
+  padding: 1rem 1.5rem 0.8rem;
+  line-height: 1.3;
+  font-size: 0.63rem;
+  height: 0.6rem;
+  border-radius: 40px;
+  border: none;
+  margin-left: 0.57rem;
+  margin-top: 0.5rem;
+  color: var(--dd-violet);
+  width: 13.7rem;
+}
+.input {
+  position: relative;
+  display: inline-block;
+  box-shadow: -2px -2px -4px var(--white);
+  margin-bottom: 12px;
+  width: 100%;
+}
+input[type="text"]::placeholder {
+  color: var(--gray-violet);
+}
+button {
+  border-radius: 50%;
+  background-color: var(--ddd-violet);
+  color: var(--white);
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  padding: 1px 6px 6px 7px;
+  position: absolute;
+  right: 9%;
+  top: 58%;
+  transform: translateX(50%) translateY(-50%);
+}
+.greater-symbol {
+  font-size: 1rem;
+  font-weight: 700;
+  transform: scaleY(1.5) scaleX(0.77);
+  text-align: center;
+  overflow: hidden;
+  text-rendering: geometricPrecision;
+  opacity: 0.98;
+}
+button:hover .greater-symbol {
+  opacity: 0.8;
+}
+.option {
+  background-color: blueviolet;
+  border-radius: 20px;
+  margin: 0.6rem auto 0.6rem 0.6rem;
+  width: max-content;
+  border-radius: 10px 10px 10px 4px;
+  font-size: 0.63rem;
+  color: var(--white);
+  padding: 8px 15px 6px 6px;
+  line-height: 1.4;
+  background-image: linear-gradient(to right, var(--magenta), var(--violet));
+  gap: 8px;
+  min-width: 10.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.option > label {
+  margin-right: auto;
+}
+.option > input[type="radio"] {
+  opacity: 0.2;
+  filter: hue-rotate(50deg) contrast(20%) brightness(1.5);
+  fill-opacity: var(--magenta);
+  position: relative;
+}
+.option > p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--white);
+}
 /* Attribution Styling */
 .attribution {
   font-size: 11px;

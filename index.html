@@ -1,102 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <title>Frontend Mentor | Chat app CSS illustration</title>
-  </head>
-  <body>
-    <header><nav></nav></header>
-    <main>
-      <section class="phone">
-        <div class="screen">
-          <header class="phoneHeader">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+</head>
+
+<body>
+  <!-- <header><nav></nav></header> -->
+  <main>
+    <section class="phone">
+      <div class="screen">
+        <header class="phoneHeader">
+            <div class="less-than">&lt;</div>
+            <div class="avatar">
+              <img src="./images/avatar.jpg" alt="Avatar Image" />
+            </div>
             <div>
-              <p><</p>
-              <div class="avatar">
-                <img src="./images/avatar.jpg" alt="Avatar Image" />
-              </div>
-              <div>
-                <h2 class="name">Samuel Green</h2>
-                <h3 class="status">Available to Walk</h3>
-              </div>
-              <p>|</p>
+              <h2 class="name">Samuel Green</h2>
+              <h3 class="status">Available to Walk</h3>
             </div>
-          </header>
-          <main class="chat">
-            <p class="grey-chat recieved">
-              That sounds great. I’d be happy with that.
-            </p>
-            <p class="grey-chat recieved">
-              Could you send over some pictures of your dog, please?
-            </p>
-            <div class="photos sent">
-              <img src="./images/dog-image-1.jpg" alt="dog-image-1" /><img
-                src="./images/dog-image-2.jpg"
-                alt="Dog Image 2"
-              /><img src="./images/dog-image-3.jpg" alt="Dog Image" />
+            <div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
             </div>
-            <p class="whiteChat sent">
-              Here are a few pictures. She’s a happy girl!
-            </p>
-            <p class="whiteChat sent">Can you make it?</p>
-            <p class="grey-chat recieved">
-              She looks so happy! The time we discussed works. How long shall I
-              take her out for?
-            </p>
-            <div class="option recieved">
-              <input type="radio" name="option" id="op30m" />
-              <label for="op30m">30 min walk </label>
-              <p>$29</p>
-            </div>
-            <div class="option recieved">
-              <input type="radio" name="option" id="op1h" />
-              <label for="op1h">1 hour walk </label>
-              <p>$49</p>
-            </div>
-            <div class="input">
-              <input
-                type="text"
-                name="message"
-                placeholder="Type a message… "
-              />
-              <button>></button>
-            </div>
-          </main>
-        </div>
-      </section>
-      <section>
-        <h1>Simple booking</h1>
-        <p>
-          Stay in touch with our dog walkers through the chat interface. This
-          makes it easy to discuss arrangements and make bookings. Once the walk
-          has been completed you can rate your walker and book again all through
-          the chat.
-        </p>
-      </section>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/Rami24t" target="_blank">Rami Al-Saadi</a>.
+        </header>
+        <div class="screen-top"></div>
+        <main class="chat">
+          <p class="grey-chat recieved">
+            That sounds great. I’d be happy with that.
+          </p>
+          <p class="grey-chat recieved">
+            Could you send over some pictures of your dog, please?
+          </p>
+          <div class="photos sent">
+            <img src="./images/dog-image-1.jpg" alt="dog-image-1" /><img src="./images/dog-image-2.jpg"
+              alt="Dog Image 2" /><img src="./images/dog-image-3.jpg" alt="Dog Image" />
+          </div>
+          <p class="whiteChat sent">
+            Here are a few pictures. She’s a happy girl!
+          </p>
+          <p class="whiteChat sent">Can you make it?</p>
+          <p class="grey-chat recieved">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+          <label for="op30m" class="option recieved">
+            <input type="radio" name="option" id="op30m" />
+            <label>30 minute walk </label>
+            <p>$29</p>
+          </label>
+          <label class="option recieved" for="op1h">
+            <input type="radio" name="option" id="op1h" />
+            <label>1 hour walk </label>
+            <p>$49</p>
+          </label>
+          <div class="input">
+            <input type="text" name="message" placeholder="Type a message… ">
+            <button>
+              <div class="greater-symbol">></div>
+              >
+            </button></input>
+          </div>
+        </main>
       </div>
-    </footer>
-  </body>
+    </section>
+    <section class="paragraph">
+      <h1>Simple booking</h1>
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and make bookings. Once the walk
+        has been completed you can rate your walker and book again all through
+        the chat.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/Rami24t" target="_blank">Rami Al-Saadi</a>.
+    </div>
+  </footer>
+</body>
+
 </html>
