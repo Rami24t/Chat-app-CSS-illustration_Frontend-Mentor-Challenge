@@ -124,46 +124,91 @@ html {
 body {
   line-height: 1;
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   font-family: "Rubik", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  background-color: var(--white);
+  background-color: hsla(270, 20%, 96%, 0.548);
+  overflow-x: hidden;
+}
+/* .bg-shape-violet {
+  position: absolute;
+  height: 132vh;
+  width: 200vw;
+  background: linear-gradient(to top, var(--violet), var(--magenta));
+  left: 0%;
+  top: 0%;
+  transform: translateX(-75%) translateY(-48%);
+  border-radius: 31%;
+} */
+.bg-shape-violet {
+  position: absolute;
+  background: linear-gradient(to top, var(--violet) 28%, var(--magenta));
+  left: -150vw;
+  top: -20vh;
+  bottom: 31vh;
+  right: 50vw;
+  border-radius: 0% 0 38% 0%;
+}
+
+.bg-shape-grey {
+  position: fixed;
+  background: var(--app-background);
+  left: 50vw;
+  top: 60vh;
+  bottom: -50vh;
+  right: -130vw;
+  border-radius: 36% 0 0 0;
+}
+.bg-shapes {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  min-height: 100vh;
+  z-index: -9;
   overflow: hidden;
 }
+.main-container {
+  margin: auto;
+}
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   color: var(--ddd-violet);
   padding: 0.7rem;
-  margin-top: 3rem;
+  margin: 4.7rem auto 0 auto;
+  text-align: center;
 }
 .paragraph p {
+  text-align: center;
   padding: 1rem;
   color: var(--gray-violet);
-  line-height: 1.7rem;
-  max-width: 28rem;
+  line-height: 1.8;
+  margin: 0.4rem auto 3.8rem auto;
+  font-size: 1.2rem;
+  max-width: 24rem;
+  width: 90%;
 }
 
 .screen {
-  width: 17.8rem;
+  width: 17.6rem;
   background-color: var(--app-background);
   border-radius: 34px;
   border: 12px solid var(--white);
   overflow: hidden;
-  margin-top: 4rem;
   position: relative;
-  box-shadow: 0.1rem 0.8rem 3rem var(--gray-blue);
-  margin-left: 1rem;
+  box-shadow: 0.4rem 2rem 2.5rem hsla(207, 7%, 74%, 0.693);
+  margin: 5.1rem auto 0 auto;
 }
 .screen-top {
   position: absolute;
   margin: auto;
-  width: 50%;
+  width: 55%;
   height: 40px;
   background: var(--white);
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 20px;
+  border-radius: 16px;
 }
 .phoneHeader {
   overflow: hidden;
@@ -171,7 +216,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 34px 16px 12px 17px;
+  padding: 34px 16px 15px 17px;
   border-radius: 17px 17px 0px 0px;
   margin-bottom: 0.9rem;
   gap: 8px;
@@ -239,6 +284,7 @@ h1 {
   width: 3rem;
   border-radius: 12px;
   margin: 0.24rem;
+  margin-left: 0.4rem;
 }
 .whiteChat {
   background-color: var(--white);
@@ -269,17 +315,17 @@ hr {
 
 input[type="text"] {
   background-color: var(--white);
-  display: inline-block;
-  padding: 0.9rem 1.4rem 0.77rem;
+  display: block;
+  padding: 1rem 1.4rem 0.8rem;
   line-height: 1.3;
   font-size: 0.63rem;
   height: 0.6rem;
   border-radius: 40px;
   border: none;
-  margin-left: 0.57rem;
+  margin: auto;
   margin-top: 0.5rem;
   color: var(--dd-violet);
-  width: 13.7rem;
+  width: 13.6rem;
   border-top: 1px solid rgb(255, 255, 255);
 }
 .input {
@@ -299,11 +345,12 @@ button {
   background-color: var(--ddd-violet);
   color: var(--white);
   border: none;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 60%;
+  width: 1.7rem;
+  aspect-ratio: 1;
   overflow: hidden;
   text-align: center;
-  padding: 1px 6px 6px 7px;
+  padding: 2px 4px 6px 7px;
   position: absolute;
   right: 10%;
   top: 58%;
@@ -320,6 +367,7 @@ button {
 }
 button:hover .greater-symbol {
   opacity: 0.8;
+  cursor: pointer;
 }
 .option {
   background-color: blueviolet;
@@ -329,7 +377,7 @@ button:hover .greater-symbol {
   border-radius: 10px 10px 10px 4px;
   font-size: 0.63rem;
   color: var(--white);
-  padding: 8px 15px 6px 6px;
+  padding: 9px 15px 7px 6px;
   line-height: 1.4;
   background-image: linear-gradient(to right, var(--magenta), var(--violet));
   gap: 8px;
@@ -348,7 +396,7 @@ button:hover .greater-symbol {
   position: relative;
 }
 .option > p {
-  font-size: 0.9rem;
+  font-size: 0.868rem;
   font-weight: 700;
   color: var(--white);
 }
@@ -356,6 +404,12 @@ button:hover .greater-symbol {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+footer {
+  margin: 0%;
+  padding: 0%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
