@@ -134,21 +134,25 @@ h1 {
   font-weight: 500;
   color: var(--ddd-violet);
   padding: 0.7rem;
+  margin-top: 3rem;
 }
 .paragraph p {
   padding: 1rem;
   color: var(--gray-violet);
   line-height: 1.7rem;
+  max-width: 28rem;
 }
 
 .screen {
   width: 17.8rem;
   background-color: var(--app-background);
   border-radius: 34px;
-  border: 10px solid var(--white);
+  border: 12px solid var(--white);
   overflow: hidden;
   margin-top: 4rem;
   position: relative;
+  box-shadow: 0.1rem 0.8rem 3rem var(--gray-blue);
+  margin-left: 1rem;
 }
 .screen-top {
   position: absolute;
@@ -167,15 +171,18 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  padding: 12px;
-  padding-top: 30px;
+  padding: 34px 16px 12px 17px;
   border-radius: 17px 17px 0px 0px;
+  margin-bottom: 0.9rem;
+  gap: 8px;
 }
 .less-than {
   color: var(--white);
   font-weight: 700;
   transform: scaleY(1.4) scaleX(0.66) scale(0.9);
+}
+.three-dots {
+  margin-left: auto;
 }
 .circle {
   height: 2px;
@@ -188,6 +195,8 @@ h1 {
   color: var(--white);
   font-weight: 500;
   padding: 0.1rem;
+  justify-self: flex-start;
+  font-size: 0.8rem;
 }
 .status {
   font-size: 0.6rem;
@@ -199,8 +208,8 @@ h1 {
   border-radius: 50%;
   overflow: hidden;
   border: 2px var(--white);
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
   border: 1px solid var(--white);
 }
 .avatar img {
@@ -213,7 +222,7 @@ h1 {
   color: var(--mod-violet);
   line-height: 1.3;
   font-size: 0.63rem;
-  padding: 0.4rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   border-radius: 10px 10px 10px 4px;
   margin: 0.6rem;
   margin-right: auto;
@@ -223,6 +232,7 @@ h1 {
   margin-left: auto;
   width: fit-content;
   padding: 0.3rem 0.5rem 0rem 0.5rem;
+  margin-top: 0.7rem;
 }
 .photos img {
   display: inline-block;
@@ -235,7 +245,7 @@ h1 {
   color: var(--dd-violet);
   line-height: 1.3;
   font-size: 0.63rem;
-  padding: 0.4rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   width: fit-content;
   margin: 0.6rem;
   margin-top: 0.2rem;
@@ -244,10 +254,23 @@ h1 {
   box-shadow: 0px 3px 7px var(--gray-blue);
   max-width: 8.7rem;
 }
+.whiteChat:nth-of-type(4) {
+  margin-bottom: 1.26rem;
+}
+
+hr {
+  padding: 1px;
+  margin: 0%;
+  background-color: var(--white);
+  opacity: 0.25;
+  border: 0px;
+  border-radius: 50%;
+}
+
 input[type="text"] {
   background-color: var(--white);
   display: inline-block;
-  padding: 1rem 1.5rem 0.8rem;
+  padding: 0.9rem 1.4rem 0.77rem;
   line-height: 1.3;
   font-size: 0.63rem;
   height: 0.6rem;
@@ -257,6 +280,7 @@ input[type="text"] {
   margin-top: 0.5rem;
   color: var(--dd-violet);
   width: 13.7rem;
+  border-top: 1px solid rgb(255, 255, 255);
 }
 .input {
   position: relative;
@@ -267,6 +291,8 @@ input[type="text"] {
 }
 input[type="text"]::placeholder {
   color: var(--gray-violet);
+  font-size: 0.63rem;
+  line-height: 1.3;
 }
 button {
   border-radius: 50%;
@@ -279,7 +305,7 @@ button {
   text-align: center;
   padding: 1px 6px 6px 7px;
   position: absolute;
-  right: 9%;
+  right: 10%;
   top: 58%;
   transform: translateX(50%) translateY(-50%);
 }
