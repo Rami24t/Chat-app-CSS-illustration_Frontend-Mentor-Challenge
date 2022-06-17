@@ -182,7 +182,7 @@ h1 {
   font-weight: 500;
   color: var(--ddd-violet);
   padding: 0.7rem 0.1rem;
-  margin: 4.7rem auto 0 auto;
+  margin: 4rem auto 0 auto;
   text-align: center;
 }
 .paragraph p {
@@ -205,7 +205,7 @@ h1 {
   border-right: 12px solid var(--white);
   overflow: hidden;
   position: relative;
-  box-shadow: 0.4rem 2rem 2.5rem hsla(207, 7%, 74%, 0.693);
+  box-shadow: 0.4rem 2rem 2.5rem hsla(207, 7%, 74%, 0.6);
   margin: 5.1rem auto 0 auto;
   transform: scale(0.98) scaleX(0.99);
 }
@@ -491,7 +491,7 @@ input[type="radio"]:checked + label::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8vw;
+    gap: 7.6vw;
     min-height: 91vh;
   }
   .paragraph h1 {
