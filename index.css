@@ -143,9 +143,6 @@ body {
   transform: translateX(-75%) translateY(-48%);
   border-radius: 31%;
 } */
-/* .main-container {
-  filter: blur(0.5px);
-} */
 .bg-shape-violet {
   position: absolute;
   background: linear-gradient(to top, var(--violet) 28%, var(--magenta));
@@ -176,6 +173,7 @@ body {
 }
 .main-container {
   margin: auto;
+  /* filter: blur(0.5px); */
 }
 h1 {
   font-size: 3rem;
