@@ -16,10 +16,9 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
+## Overview - Chat app CSS illustration Master
 
-Chat app CSS illustration Master
-My solution for the Chat app CSS illustration coding challenge which is to implement the design in the given images and to illustrate the Chat app page for both screens using CSS and making it fully responsive.
+Here you can find my solution to the Chat app CSS illustration Master coding challenge which is to implement the design in the given images and to illustrate the Chat app page using CSS and to make it fully responsive to all screen sizes, and to animate the chats.
 - Given were these two JPEG design images for mobile & desktop layouts:
 
 ![Mobile design image preview for the Chat app CSS illustration coding challenge](./design/mobile-design.jpg) ![Desktop design image preview for the Chat app CSS illustration coding challenge](./design/desktop-design.jpg)
