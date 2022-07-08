@@ -468,7 +468,7 @@ In the projects after this one I am using a broader tech stack and including CSS
 
 ### Useful resources
 
-- [Resource 1](https://www.w3schools.com/Css/) - This is an amazing resource which helped me realize that it is best to make my own custom radio buttons. I'd recommend it to anyone who needs a hint on styling elements.
+- [w3schools](https://www.w3schools.com/Css/) - This is an amazing resource which helped me realize that it is best to make my own custom radio buttons. I'd recommend it to anyone who needs a hint on styling elements.
 
 ## Author
 
