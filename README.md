@@ -8,7 +8,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
+- [My process](#my-process-and-workflow)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
