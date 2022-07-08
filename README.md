@@ -477,6 +477,6 @@ In the projects after this one I am using a broader tech stack and including CSS
 
 ## Acknowledgments
 
-I would like to thank Frontend for the exercise and Github for the hosting and w3schools for the tutorials.
+I would like to thank Frontend for offering the exercise and Github for offering the hosting and w3schools for offering their tutorials.
 
 - July 2022 - Rami Al-Saadi
