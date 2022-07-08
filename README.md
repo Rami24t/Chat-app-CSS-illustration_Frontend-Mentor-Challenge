@@ -55,8 +55,8 @@ Screenshots from my solution:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Rami24t/Chat-app-CSS-illustration---Frontend-Mentor-Challenge)
-- Live Site URL: [Add live site URL here](https://rami24t.github.io/Chat-app-CSS-illustration---Frontend-Mentor-Challenge/)
+- Solution URL: [Solution](https://github.com/Rami24t/Chat-app-CSS-illustration_Frontend-Mentor-Challenge)
+- Live Site URL: [Live site](https://rami24t.github.io/Chat-app-CSS-illustration_Frontend-Mentor-Challenge)
 
 ## Process and workflow
 
