@@ -473,7 +473,7 @@ In the projects after this one I am using a broader tech stack and including CSS
 ## Author
 
 - Website - [Rami Al-Saadi](https://github.com/Rami24t)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Rami24t](https://www.frontendmentor.io/profile/Rami24t)
 
 ## Acknowledgments
 
