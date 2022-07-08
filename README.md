@@ -1,92 +1,482 @@
-# Frontend Mentor - Chat app CSS illustration
+# Frontend Mentor - Chat app CSS illustration solution
 
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+Chat app CSS illustration Master
+My solution for the Chat app CSS illustration coding challenge which is to implement the design in the given images and to illustrate the Chat app page for both screens using CSS and making it fully responsive.
+Given were the following jpg images:
 ![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+### The challenge
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a strong understanding of HTML and CSS.**
-
-## The challenge
-
-Your challenge is to build out this feature illustration using HTML & CSS and get it looking as close to the design as possible.
-
-The only assets we provide in this challenge are the image of the person in the app UI and the 3 images of the dog. You need to create everything else using HTML & CSS!
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
+- See the chat interface animate on the initial load
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+## The challenge details
 
-## Where to find everything
+Build out this feature illustration using HTML & CSS and get it looking as close to the design as possible.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+The only assets provided in this challenge were the image of the person in the app UI and the 3 images of the dog. I needed to create everything else using HTML & CSS!
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Users should be able to:
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- View the optimal layout for the component depending on their device's screen size
+- See the chat interface animate on the initial load
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Screenshots
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Screenshots from my solution:
 
-## Building your project
+- Desktop screen:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+![](<./Snapshots/Desktop/Screenshot%202022-06-17%20at%2016-09-15%20(latest)%20Frontend%20Mentor%20Chat%20app%20CSS%20illustration.png>)
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- Mobile screen:
 
-## Deploying your project
+![](./Snapshots/Mobile/Screenshot%202022-06-17%20at%2016-34-10%20Frontend%20Mentor%20Chat%20app%20CSS%20illustration.png)
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### Links
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Solution URL: [Add solution URL here](https://github.com/Rami24t/Chat-app-CSS-illustration---Frontend-Mentor-Challenge)
+- Live Site URL: [Add live site URL here](https://rami24t.github.io/Chat-app-CSS-illustration---Frontend-Mentor-Challenge/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+## Process and workflow
 
-## Create a custom `README.md`
+- Initialized project as a public repository on [GitHub](https://github.com/).
+- Configured repository to publish code to a web address.
+- Looked through the designs to start planning out how I'll tackle the project and think ahead about CSS classes.
+- Before adding styles, I structured my content with HTML first which helped me focus my attention on creating well-structured content. I thought ahead and gave the necessary classes to the HTML tags.
+- Wrote out the base styles for the project, including general content styles.
+- Started adding styles to the page moving from one section to the next.
+- I first styled the mobile version and then did the desktop one.
+- I revisited and retouched each section and feature as necessary.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- After finishing the HTML structure and adding all the images and text, I started working on the styling. I first did the paragraph with its title including the fonts and then moved to illustrating the mobile chat app in the mobile screen starting from top to bottom. After that I created the background illustrations using CSS and then worked on retouching and spacing the screen and paragraph and putting it all together on both screens. I also added the bonus 'See the chat interface animate on the initial load' feature by making and adding the necessary animations. I also needed to make custom designed radio buttons. I also crafted the shape used in the buttons and the one used before the avatar image and the three dots and the designs in the background using CSS and HTML.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+- After I was finally satisfied with the result which was as close as possible to the two given images on the two different screens. I took some screenshots of the final results and added them to the (./Snapshots) folder.
+- I deployed my project using github and github pages.
+- I submitted and shared my solution.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Built with
 
-## Submitting your solution
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+### What I learned
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- I learned and practiced and gained lot of project-making and especially frontend web-development and CSS/HTML design skills whilst the making of this project.
+  It was fun and challenging, especially the parts where I had challenge myself to create everything that was needed by using pure CSS.
+- The element creation parts such as illustrating the mobile screen or the elements used inside it and inside the app and illustrating the background shapes on different screen sizes, and the Chat animation were most fun and needed some imagination. Making it look perfect on both screens was also a nice challenge. The custom radio buttons were also interesting to illustrate.
+- It was generally a much fun and rich HTML/CSS challenge.
 
-## Sharing your solution
+- Code Snippets:
 
-There are multiple places you can share your solution:
+- Here is how I did the background shapes for the mobile screen:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+```html
+<div class="bg-shapes">
+  <div class="bg-shape-violet"></div>
+  <div class="bg-shape-grey"></div>
+</div>
+```
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+```css
+.bg-shape-violet {
+  position: absolute;
+  background: linear-gradient(to top, var(--violet) 28%, var(--magenta));
+  left: -150vw;
+  top: -20vh;
+  bottom: 31vh;
+  right: 50vw;
+  border-radius: 0% 0 38% 0%;
+}
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+.bg-shape-grey {
+  position: absolute;
+  background: var(--app-background);
+  left: 50vw;
+  top: 60vh;
+  bottom: -50vh;
+  right: -130vw;
+  border-radius: 36% 0 0 0;
+}
+.bg-shapes {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  min-height: 100vh;
+  z-index: -8;
+  overflow: hidden;
+}
+```
 
-## Got feedback for us?
+- Since I am using mobile first approach. I needed to add the necessary changes to the styling of the background and other elements of the desktop and bigger screens by using min-width media queries:
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+```css
+@media only screen and (min-width: 500px) {
+  .bg-shape-violet {
+    ...;
+  }
+  .bg-shape-grey {
+    ...;
+  }
+  ...;
+}
+@media only screen and (min-width: 1340px) {
+  .main-container {
+    display: flex;
+    ...;
+  }
+  .bg-shape-violet {
+    ...;
+  }
+  .bg-shape-grey {
+    ...;
+  }
+}
+```
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+- Here is how I made the three dots symbol:
 
-**Have fun building!** 🚀
+```html
+<div class="three-dots">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+```
+
+```css
+.three-dots {
+  margin-left: auto;
+  margin-right: 0.1rem;
+}
+.circle {
+  height: 2px;
+  width: 2px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 2px;
+}
+```
+
+- Here is how I coded the bonus feature of animating the chats on the initial load
+
+```css
+.received:nth-child(2) {
+  animation: receive-anim 0.1s linear 0.2s 1 backwards;
+  transition: all 0.4ms;
+}
+.received:nth-child(4) {
+  animation: receive-anim 0.1s linear 0.7s 1 backwards;
+  transition: all 0.4ms;
+}
+.sent:nth-of-type(4):nth-child(6) {
+  animation: send-anim 0.1s linear 1.7s 1 backwards;
+  transition: all 0.4ms;
+}
+.sent:nth-of-type(3) {
+  animation: send-anim 0.1s linear 2.2s 1 backwards;
+  transition: all 0.4ms;
+}
+.sent:nth-of-type(4) {
+  animation: send-anim 0.1s linear 2.7s 1 backwards;
+  transition: all 0.4ms;
+}
+.received:nth-of-type(5) {
+  animation: receive-anim 0.1s linear 3.7s 1 backwards;
+  transition: all 0.4ms;
+}
+.received:nth-child(13) {
+  animation: receive-anim 0.1s linear 4.2s 1 backwards;
+  transition: all 0.4ms;
+}
+.received:nth-child(14) {
+  animation: receive-anim 0.1s linear 4.8s 1 backwards;
+  transition: all 0.4ms;
+}
+
+@keyframes receive-anim {
+  from {
+    transform: translateX(-110%) scale(0.1);
+    display: none;
+  }
+}
+@keyframes send-anim {
+  from {
+    transform: translateX(110%) scale(0.1);
+    display: none;
+  }
+}
+
+.grey-chat:nth-of-type(1):nth-child(1) {
+  animation: show-typing 0.33s linear 1;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+  transform: translateX(-5%);
+  width: 4.6rem;
+  text-align: center;
+}
+.grey-chat:nth-of-type(2):nth-child(3) {
+  animation: show-typing 0.38s linear 0.45s 1;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+  transform: translateX(-7%);
+  width: 4.6rem;
+  text-align: center;
+}
+.grey-chat:nth-of-type(7) {
+  animation: show-typing 0.39s linear 3.4s 1;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+  transform: translateX(-9%);
+  text-align: center;
+  width: 4.6rem;
+}
+.white-chat {
+  --position-v: 0.3rem;
+}
+.white-chat:nth-of-type(3):nth-child(5) {
+  animation: show-typing 0.4s linear 1.4s 1;
+  position: absolute;
+  margin-top: 0.6rem;
+  right: 0rem;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0.8;
+}
+.white-chat:nth-of-type(5):nth-child(7) {
+  animation: show-typing 0.4s linear 1.9s 1;
+  position: absolute;
+  right: 0rem;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0.8;
+}
+.white-chat:nth-of-type(6) {
+  animation: show-typing 0.4s linear 2.3s 1;
+  position: absolute;
+  right: 0rem;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0.8;
+}
+
+@keyframes show-typing {
+  to {
+    visibility: visible;
+    transform: translateX(0%);
+    right: var(--position-v);
+  }
+}
+/* typing-ani */
+.typing-dots {
+  margin-left: 0.1rem;
+  width: 4.6rem;
+}
+.typing {
+  display: inline-block;
+  width: 6.5px;
+  height: 6px;
+  margin-right: 5%;
+  border-radius: 49%;
+  opacity: 0;
+  transform: translateY(-110%);
+}
+.grey-chat .typing {
+  background: var(--mod-violet);
+}
+.white-chat .typing {
+  background: hsla(271, 15%, 43%, 0.9);
+}
+.typing.typing-1 {
+  animation: typing 1.45s infinite forwards;
+}
+.typing.typing-2 {
+  animation: typing 1.45s 0.2s infinite forwards;
+  margin-right: 5.5%;
+}
+.typing.typing-3 {
+  animation: typing 1.45s 0.5s infinite forwards;
+}
+
+@keyframes typing {
+  to {
+    transform: translateY(85%);
+    opacity: 0.6;
+  }
+}
+```
+
+- I coded and custom styled the radio button visuals using the label's pseudo class:
+
+```css
+.option > label::before {
+  border: 2px solid var(--r-btn-outline);
+  border-radius: 50%;
+  content: "";
+  left: -25px;
+  bottom: 1px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  opacity: 0.9;
+  box-shadow: 0px 0px 1px #d444f5;
+  pointer-events: none;
+}
+```
+
+- Code snippet of the options and the buttons in the chat app:
+
+```html
+          <label for="op30m" class="option received">
+            <input type="radio" name="option" id="op30m" />
+            <label for="op30m">30 minute walk </label>
+            <p>$29</p>
+          </label>
+          <label class="option received" for="op1h">
+            <input type="radio" name="option" id="op1h" />
+            <label for="op1h">1 hour walk </label>
+            <p>$49</p>
+          </label>
+          <hr>
+          <div class="input">
+            <input type="text" name="message" placeholder="Type a message… ">
+            <button>
+              <div class="greater-symbol">></div>
+            </button>
+            </input>
+          </div>
+```
+
+```css
+button {
+  border-radius: 50%;
+  background-color: var(--ddd-violet);
+  color: var(--white);
+  border: none;
+  height: 1.85rem;
+  width: 1.85rem;
+  overflow: hidden;
+  text-align: center;
+  padding: 4px 4px 6px 6px;
+  position: absolute;
+  right: 10.6%;
+  top: 55%;
+  transform: translateX(50%) translateY(-50%);
+}
+.greater-symbol {
+  font-size: 1rem;
+  font-weight: 700;
+  transform: scaleY(1.5) scaleX(0.77);
+  text-align: center;
+  overflow: hidden;
+  text-rendering: geometricPrecision;
+  opacity: 0.98;
+}
+button:active .greater-symbol,
+button:active .greater-symbol::after {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.greater-symbol::after {
+  content: ">";
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-100%) scaleY(1.1) scale(1.1) translateY(-3%);
+  opacity: 0.6;
+}
+
+.option {
+  background-color: var(--magenta);
+  background-image: linear-gradient(to right, var(--magenta), var(--violet));
+  border-radius: 20px;
+  margin: 0.6rem auto 0.6rem 0.6rem;
+  width: max-content;
+  border-radius: 12px 12px 12px 5px;
+  font-size: 0.63rem;
+  color: var(--white);
+  padding: 10px 21px 9px 6px;
+  line-height: 1.4;
+  gap: 8px;
+  min-width: 10.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.option > label {
+  margin-right: auto;
+  position: relative;
+}
+.option > input[type="radio"] {
+  opacity: 0.01;
+  filter: hue-rotate(70deg) contrast(80%) brightness(1.2);
+  fill-opacity: var(--magenta);
+  position: relative;
+  transform: scale(1.5) translateY(-2px);
+}
+.option > label::before {
+  border: 2px solid var(--r-btn-outline);
+  border-radius: 50%;
+  content: "";
+  left: -25px;
+  bottom: 1px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  opacity: 0.9;
+  box-shadow: 0px 0px 1px #d444f5;
+  pointer-events: none;
+}
+input[type="radio"]:checked + label::before {
+  background: radial-gradient(#fff 58%, var(--r-btn-outline-2));
+}
+.option > p {
+  font-size: 0.886rem;
+  font-weight: 700;
+  color: var(--white);
+}
+```
+
+### Continued development
+
+In the projects after this one I am using a broader tech stack and including CSS frameworks such as Tailwind and more Javascript projects.
+
+### Useful resources
+
+- [Resource 1](https://www.w3schools.com/Css/) - This is an amazing resource which helped me realize that it is best to make my own custom radio buttons. I'd recommend it to anyone who needs a hint on styling elements.
+
+## Author
+
+- Website - [Rami Al-Saadi](https://github.com/Rami24t)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+
+## Acknowledgments
+
+I would like to thank Frontend for the exercise and Github for the hosting and w3schools for the tutorials.
+
+- July 2022 - Rami Al-Saadi
