@@ -392,10 +392,23 @@ button {
   text-rendering: geometricPrecision;
   opacity: 0.98;
 }
+button,
+.three-dots,
+.option,
+.option label,
+.less-than,
+.avatar,
+.photos img,
+.option input {
+  cursor: pointer;
+}
 button:active .greater-symbol,
+.photos img:active,
+.avatar:active,
+.less-than:active,
+.three-dots:active,
 button:active .greater-symbol::after {
   opacity: 0.8;
-  cursor: pointer;
 }
 .greater-symbol::after {
   content: ">";
