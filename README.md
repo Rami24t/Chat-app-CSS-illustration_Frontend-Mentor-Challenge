@@ -472,7 +472,8 @@ In the projects after this one I am using a broader tech stack and including CSS
 
 ## Author
 
-- Website - [Rami Al-Saadi](https://github.com/Rami24t)
+- Github - [Rami Al-Saadi](https://github.com/Rami24t)
+- Linkedin - [Rami Al-Saadi]https://www.linkedin.com/in/rami-al-saadi-16a14223a/
 - Frontend Mentor - [@Rami24t](https://www.frontendmentor.io/profile/Rami24t)
 
 ## Acknowledgments
